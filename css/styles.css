@@ -1006,30 +1006,33 @@ input:hover {
     margin-left: 10px;
 } */
 
+
+
 /* - - - - - - - PORTFOLIO - - - - - - - */
 
 /* ---------------- BUTTON ---------------- */
 
-.portfolio-conten {
+.portfolio-button-section {
   padding-top: 100px;
   padding-bottom: 94px;
 }
-.portfolio-button-div {
+
+.portfolio-button {
   margin-bottom: 56px;
 }
 
-.button-portfolio-list {
+.portfolio-button__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-left: 8px;
 }
 
-.button-portfolio-li:not(:last-child) {
+.portfolio-button__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.button-portfolio {
+.portfolio-button__btn {
   flex-basis: calc(100% / 5 - 8px);
   padding-top: 6px;
   padding-right: 22px;
@@ -1054,31 +1057,32 @@ input:hover {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-portfolio:hover,
-.button-portfolio:focus {
+.portfolio-button__btn:hover,
+.portfolio-button__btn:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button-portfolio-all {
+.portfolio-button__btn--all {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 
 /* ---------------- CONTENT ---------------- */
 
-.project-icons {
+.projects {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-bottom: -30px;
 }
 
-.project {
+.projects__link {
   display: inline-block;
   position: relative;
   flex-basis: calc(100% / 9 - 30px);
@@ -1089,30 +1093,30 @@ input:hover {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project:hover,
-.project:focus {
+.projects__link:hover,
+.projects__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project:hover .project-overlay,
-.project:focus .project-overlay {
+.projects__link:hover .projects__overlay,
+.projects__link:focus .projects__overlay {
   transform: translateY(0);
   opacity: 1;
 }
 
-.project:hover .overlay-text,
-.project:focus .overlay-text {
+.projects__link:hover .projects__overlay--text-card,
+.projects__link:focus .projects__overlay--text-card {
   opacity: 1;
 }
 
-.project-content-img {
+.projects__img {
   position: relative;
   width: 370px;
   height: 294px;
 }
 
-.project-overlay {
+.projects__overlay {
   display: inline-block;
 
   position: absolute;
@@ -1122,13 +1126,11 @@ input:hover {
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
 
-  /* opacity: 0; */
-
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-text {
+.projects__overlay--text-card {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1142,7 +1144,7 @@ input:hover {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-text-p {
+.projects__overlay--text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -1152,7 +1154,7 @@ input:hover {
   color: #ffffff;
 }
 
-.project-name-portfolio {
+.projects__description {
   position: relative;
   padding-top: 20px;
   padding-right: 24px;
@@ -1164,7 +1166,7 @@ input:hover {
   box-sizing: border-box;
 }
 
-.name-project {
+.projects__description--name {
   margin-bottom: 4px;
 
   font-family: Roboto;
@@ -1176,7 +1178,7 @@ input:hover {
   color: #212121;
 }
 
-.category-project {
+.projects__description--category {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
