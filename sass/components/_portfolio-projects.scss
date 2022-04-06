@@ -79,7 +79,7 @@
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: $white-color;
 }
 
 .projects__description {
@@ -89,7 +89,7 @@
     padding-bottom: 20px;
     padding-left: 24px;
 
-    background: #ffffff;
+    background: $white-color;
     border: 1px solid #eeeeee;
     box-sizing: border-box;
 }
@@ -103,7 +103,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: $title-color;
 }
 
 .projects__category {
@@ -113,5 +113,5 @@
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $text-color;
 }

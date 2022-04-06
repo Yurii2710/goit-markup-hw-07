@@ -35,7 +35,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: $title-color;
 }
 
 .about-advantage__text {
@@ -45,5 +45,5 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $text-color;
 }

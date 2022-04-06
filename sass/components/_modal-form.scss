@@ -43,7 +43,7 @@
   min-height: 30px;
 
   border-radius: 50%;
-  background: #ffffff;
+  background: $white-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 
@@ -62,7 +62,7 @@
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: $title-color;
 }
 
 .modal-form__field {
@@ -81,7 +81,7 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: $text-color;
 }
 
 .modal-form__input {
@@ -188,7 +188,7 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $text-color;
   }
   
   .modal-form__link-agreement {
@@ -223,7 +223,7 @@
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
-    color: #ffffff;
+    color: $white-color;
 
     &:hover, &:focus {
       background-color: #147dd3;
