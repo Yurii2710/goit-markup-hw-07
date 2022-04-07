@@ -459,7 +459,7 @@ img {
 .checkbox:checked + .checkbox__icon {
   border: 2px solid #2196f3;
   background-color: #2196f3;
-  background-image: url(/img./vector-2.svg);
+  background-image: url(../img./vector-2.svg);
   background-size: contain;
   background-origin: border-box;
 }
